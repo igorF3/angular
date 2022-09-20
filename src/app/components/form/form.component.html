@@ -1,0 +1,8 @@
+<div class="container">
+    <form #myForm="ngForm" (ngSubmit)="submitForm(myForm)">
+        <div>Имя: <input class="form-control" name="name" ngModel/></div>
+        <div>Возраст: <input class="form-control" name="age" ngModel /></div>
+        <div>Профессия: <input class="form-control" name="proffession" ngModel/></div>
+        <button class="btn btn-default" type="submit">Отправить</button>
+    </form>
+</div>
